@@ -31,4 +31,4 @@ func TestTransaction_IsNotValidWithAmountLessThan1(t *testing.T) {
 	err := transaction.IsValid()
 	assert.Error(t, err)
 	assert.Equal(t, "the amount must be greater than 1", err.Error())
-}https://github.com/Arturbarth/payment-gateway
+}
